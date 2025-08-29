@@ -1,0 +1,53 @@
+/* Basic styles for the bus geolocation website */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    overflow-y: auto;
+    border-left: 1px solid #ddd;
+}
+
+#route-list h2 {
+    margin-top: 0;
+}
+
+#route-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#route-list li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+#route-list li:hover {
+    background-color: #e9e9e9;
+}
