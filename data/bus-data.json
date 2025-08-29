@@ -1,0 +1,54 @@
+{
+    "buses": [
+        {
+            "id": 1,
+            "route": "A1",
+            "location": {
+                "lat": -23.5505,
+                "lng": -46.6333
+            },
+            "status": "On Time",
+            "next_stop": "Central Station"
+        },
+        {
+            "id": 2,
+            "route": "B2",
+            "location": {
+                "lat": -23.5613,
+                "lng": -46.6565
+            },
+            "status": "Delayed",
+            "next_stop": "Museum of Art"
+        },
+        {
+            "id": 3,
+            "route": "A1",
+            "location": {
+                "lat": -23.5475,
+                "lng": -46.6361
+            },
+            "status": "On Time",
+            "next_stop": "Republic Square"
+        },
+        {
+            "id": 4,
+            "route": "C3",
+            "location": {
+                "lat": -22.9068,
+                "lng": -43.1729
+            },
+            "status": "On Time",
+            "next_stop": "Sugarloaf Mountain"
+        },
+        {
+            "id": 5,
+            "route": "D4",
+            "location": {
+                "lat": -22.9719,
+                "lng": -43.2094
+            },
+            "status": "On Time",
+            "next_stop": "Christ the Redeemer"
+        }
+    ]
+}
